@@ -13,6 +13,7 @@
 		881902171E5FE8970099B1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881902161E5FE8970099B1AE /* Assets.xcassets */; };
 		8819021A1E5FE8970099B1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881902181E5FE8970099B1AE /* LaunchScreen.storyboard */; };
 		88E2DF551E650FE200035716 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E2DF541E650FE200035716 /* MusicListVC.swift */; };
+		88E2DF571E65176500035716 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E2DF561E65176500035716 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		881902191E5FE8970099B1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8819021B1E5FE8970099B1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E2DF541E650FE200035716 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		88E2DF561E65176500035716 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySongVC.swift; path = ../PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8819020F1E5FE8970099B1AE /* AppDelegate.swift */,
 				881902111E5FE8970099B1AE /* LoginVC.swift */,
 				88E2DF541E650FE200035716 /* MusicListVC.swift */,
+				88E2DF561E65176500035716 /* PlaySongVC.swift */,
 				881902131E5FE8970099B1AE /* Main.storyboard */,
 				881902161E5FE8970099B1AE /* Assets.xcassets */,
 				881902181E5FE8970099B1AE /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E2DF551E650FE200035716 /* MusicListVC.swift in Sources */,
+				88E2DF571E65176500035716 /* PlaySongVC.swift in Sources */,
 				881902121E5FE8970099B1AE /* LoginVC.swift in Sources */,
 				881902101E5FE8970099B1AE /* AppDelegate.swift in Sources */,
 			);
