@@ -105,7 +105,7 @@
                                     <color key="titleColor" red="0.1656091371" green="0.1656091371" blue="0.1656091371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="load3rdScreenpressed:" destination="pKP-WH-D9L" eventType="touchUpInside" id="QVv-I1-irK"/>
+                                    <action selector="load3rdScreenPressed:" destination="pKP-WH-D9L" eventType="touchUpInside" id="0wl-b0-EnE"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -20,20 +20,20 @@ class MusicListVC: UIViewController
    
     }
 
+  @IBAction func load3rdScreenPressed(_ sender: Any) {
+  }
   @IBAction func backButtonPressed(_ sender: AnyObject)
-  {
-    dismiss(animated: true, completion: nil)
-  }
-
-  @IBAction func load3rdScreenpressed(_ sender: Any)
-  {
-    let songTitle = "Don't stop"
-    performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
-  }
+  
+    {
+      let songTitle = "Don't stop"
+      performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
+    }
+  
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?)
   {
-    if let destination = segue.destination as? PlaySongVC {
+    if let destination = segue.destination as? PlaySongVC
+      {
       if let song = sender as? String
       {
         destination.selectedSong = song

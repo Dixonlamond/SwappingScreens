@@ -25,8 +25,7 @@ class PlaySongVC: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
-        songTitleLBl.text = _selectedSong
+        songTitleLBl.text = _selectedSong!
     }
 
     override func didReceiveMemoryWarning() {
