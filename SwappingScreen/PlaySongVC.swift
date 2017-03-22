@@ -8,19 +8,25 @@
 
 import UIKit
 
-class PlaySongVC: UIViewController {
+class PlaySongVC: UIViewController
+{
   
   @IBOutlet weak var songTitle: UILabel!
   
-  private var _selectedSong:String!
+  private var _selectedSong: String!
   
-  var selectedSong: String {
-    get {
+  var selectedSong: String
+{
+    get
+    {
       return _selectedSong
-    } set {
+    }
+    
+    set
+    {
       _selectedSong = newValue
     }
-  }
+}
   
     override func viewDidLoad()
     {
@@ -28,7 +34,8 @@ class PlaySongVC: UIViewController {
         songTitle.text = _selectedSong
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
       
         // Dispose of any resources that can be recreated.

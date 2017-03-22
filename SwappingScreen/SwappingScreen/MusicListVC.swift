@@ -16,24 +16,28 @@ class MusicListVC: UIViewController
   {
     super.viewDidLoad()
     view.backgroundColor = UIColor.blue
-    
-    
   }
-  @IBAction func backButton(_ sender: Any) {
+  @IBAction func backButton(_ sender: Any)
+  {
     dismiss(animated: true, completion: nil)
   }
   
-  @IBAction func loadScreen(_ sender: Any) {
+  @IBAction func loadScreen(_ sender: Any)
+  {
     let songTitle = "Damn Son"
     performSegue(withIdentifier: "PlaySongVC", sender: songTitle)
   }
   
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let destination = segue.destination as? PlaySongVC {
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+  {
+    if let destination = segue.destination as? PlaySongVC
+    {
       
-      if let song = sender as? String {
+      if let song = sender as? String
+      {
         destination.selectedSong = song
       }
+      
     }
     
   }

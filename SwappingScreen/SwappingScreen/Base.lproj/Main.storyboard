@@ -105,9 +105,8 @@
                                     <color key="titleColor" red="0.1656091371" green="0.1656091371" blue="0.1656091371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="load3rdScreenPressed:" destination="pKP-WH-D9L" eventType="touchUpInside" id="0wl-b0-EnE"/>
                                     <action selector="loadScreen:" destination="pKP-WH-D9L" eventType="touchUpInside" id="eG2-g8-vWn"/>
-                                    <segue destination="7Pu-ho-Kge" kind="showDetail" id="HDx-gc-W0M"/>
+                                    <segue destination="7Pu-ho-Kge" kind="showDetail" identifier="PlaySongVC" id="HDx-gc-W0M"/>
                                 </connections>
                             </button>
                         </subviews>
